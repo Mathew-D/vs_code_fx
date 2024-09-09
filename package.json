@@ -4,6 +4,7 @@
     "description": "A VS Code extension to generate a python QT setup.",
     "version": "0.0.1",
     "publisher": "<Dusome>",
+    
     "engines": {
         "vscode": "^1.50.0"
     },
@@ -31,8 +32,12 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Mathew-D/vs_code_qt"
+  },
+    "keywords": ["vscode", "extension","qt","python"],
+    "author": "Mathew Dusome",
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^22.5.4"
