@@ -1,0 +1,40 @@
+{
+    "name": "python-qt-creator",
+    "displayName": "Python QT Creator",
+    "description": "A VS Code extension to generate a python QT setup.",
+    "version": "0.0.1",
+    "publisher": "<Dusome>",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "activationEvents": [
+        "onCommand:extension.generateCodeStructure"
+    ],
+    "main": "extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.generateCodeStructure",
+                "title": "Generate Python QT Structure"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "command": "extension.generateCodeStructure",
+                    "when": "explorerResourceIsFolder",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^22.5.4"
+    }
+}
