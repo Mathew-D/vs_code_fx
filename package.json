@@ -1,9 +1,9 @@
 {
-    "name": "python-qt-creator",
-    "displayName": "Python QT Creator",
-    "description": "A VS Code extension to generate a python QT setup.",
-    "version": "0.0.1",
-    "publisher": "<Dusome>",
+    "name": "dusome-qt",
+    "displayName": "Dusome QT",
+    "description": "A VS Code extension to generate a python QT setup for Mr. Dusome's class.",
+    "version": "1.0.0",
+    "publisher": "Dusome",
     
     "engines": {
         "vscode": "^1.50.0"
@@ -29,9 +29,13 @@
             ]
         }
     },
+    "files": [
+    "extension.js"
+],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "package": "vsce package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
     "repository": {
     "type": "git",
     "url": "https://github.com/Mathew-D/vs_code_qt"
