@@ -1,28 +1,28 @@
 {
-    "name": "dusome-qt",
-    "displayName": "Dusome QT",
-    "description": "A VS Code extension to generate a python QT setup for Mr. Dusome's class.",
-    "version": "1.0.0",
+    "name": "dusome-fx",
+    "displayName": "Dusome FX",
+    "description": "A VS Code extension to generate a FX setup for Mr. Dusome's class.",
+    "version": "2.0.1",
     "publisher": "Dusome",
     
     "engines": {
         "vscode": "^1.50.0"
     },
     "activationEvents": [
-        "onCommand:extension.generateCodeStructure"
+        "onCommand:extension.generateFXStructure"
     ],
     "main": "extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "extension.generateCodeStructure",
-                "title": "Generate Python QT Structure"
+                "command": "extension.generateFXStructure",
+                "title": "Generate FX Structure"
             }
         ],
         "menus": {
             "explorer/context": [
                 {
-                    "command": "extension.generateCodeStructure",
+                    "command": "extension.generateFXStructure",
                     "when": "explorerResourceIsFolder",
                     "group": "navigation"
                 }
@@ -38,9 +38,9 @@
 },
     "repository": {
     "type": "git",
-    "url": "https://github.com/Mathew-D/vs_code_qt"
+    "url": "https://github.com/Mathew-D/vs_code_fx"
   },
-    "keywords": ["vscode", "extension","qt","python"],
+    "keywords": ["vscode", "extension","java","fx"],
     "author": "Mathew Dusome",
     "license": "MIT",
     "devDependencies": {
