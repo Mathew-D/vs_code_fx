@@ -2,7 +2,7 @@
     "name": "dusome-fx",
     "displayName": "Dusome FX",
     "description": "A VS Code extension to generate a FX setup for Mr. Dusome's class.",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "publisher": "Dusome",
     
     "engines": {

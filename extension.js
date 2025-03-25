@@ -392,12 +392,12 @@ http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>23</version>
+            <version>21</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
-            <version>23</version>
+            <version>21</version>
         </dependency>
     </dependencies>
 
@@ -409,7 +409,7 @@ http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>23</release>
+                    <release>21</release>
                 </configuration>
                 <dependencies>
                     <dependency>
